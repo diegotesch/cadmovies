@@ -1,6 +1,6 @@
 <h1>MOVIE LIBRARY</h1>
 
-<h2> PASSO PARA SUBIR O PROJETO</h2>
+<h2> PASSOS PARA SUBIR O PROJETO</h2>
 
 No diretório raiz do projeto, execute os seguintes comandos:
 
