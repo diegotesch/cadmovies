@@ -1,0 +1,11 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+.v-buttons button{
+  display: block;
+  width: 40px;
+  display: block;
+  padding-left: 0.55rem;
+  padding-top: 0.55rem;
+  margin-bottom: 0.2rem;
+}
