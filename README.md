@@ -26,7 +26,9 @@ No diretório raiz do projeto, execute os seguintes comandos:
 
 
 <h2>ACESSANDO O SISTEMA</h2>
-http://localhost:8000
+
+URL:
+                http://localhost:8000
 
 Dados para Login: 
 
