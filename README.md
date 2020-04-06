@@ -8,7 +8,7 @@ No diretório raiz do projeto, execute os seguintes comandos:
 
 		$ cd cadmovies
 		
-		$ cp .env.exemple .env
+		$ cp .env.example .env
 
 		$ docker-compose up -d
 
