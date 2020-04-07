@@ -10,7 +10,7 @@ Vue.use(money, {precision: 4})
 
 import App          from './views/App'
 import Home from './views/Home'
-// import Dashboard    from './views/Board'
+
 import Login        from './views/Login'
 import Register     from './views/Register'
 

@@ -48,6 +48,7 @@
   </div>
 </template>
 <script>
+import util from '../util/util'
 export default {
   data() {
     return {
@@ -96,7 +97,6 @@ export default {
           }, err => {
             this.alertType = 'danger';
             this.message = 'Fail on store category';
-            console.log(err)
           });
           return;
         }
@@ -110,7 +110,6 @@ export default {
         }, err => {
           this.alertType = 'danger';
           this.message = 'Fail on store category';
-          console.log(err)
         });
 
 

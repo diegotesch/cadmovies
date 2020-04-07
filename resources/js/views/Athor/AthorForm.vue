@@ -104,7 +104,6 @@ export default {
           }, err => {
             this.alertType = 'danger';
             this.message = 'Fail on store athor';
-            console.log(err)
           });
           return;
         }
@@ -118,7 +117,6 @@ export default {
         }, err => {
           this.alertType = 'danger';
           this.message = 'Fail on store athor';
-          console.log(err)
         });
 
 

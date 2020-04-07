@@ -142,7 +142,6 @@ export default {
         }, err => {
           this.alertType = 'danger';
           this.message = 'Fail on store Cast';
-          console.log(err)
         });
         return;
       }
@@ -157,7 +156,6 @@ export default {
         }, err => {
           this.alertType = 'danger';
           this.message = 'Fail on update Cast';
-          console.log(err)
         });
       return;
 
@@ -184,7 +182,6 @@ export default {
       axios.get(`/api/movie/${id}`)
       .then(response => {
         this.movie = response.data.data;
-        console.log(this.movie);
         this.getCast(this.movie.cast.id);
         this.movieName = this.movie.name;
         this.title = 'Create Cast for Movie ' + this.movieName;

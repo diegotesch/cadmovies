@@ -159,7 +159,7 @@ export default {
           }, err => {
             this.alertType = 'danger';
             this.message = 'Fail on store movie';
-            console.log(err)
+            console.error(err)
           });
           return;
         }
@@ -173,7 +173,7 @@ export default {
         }, err => {
           this.alertType = 'danger';
           this.message = 'Fail on update movie';
-          console.log(err)
+          console.error(err)
         });
         return;
       }
